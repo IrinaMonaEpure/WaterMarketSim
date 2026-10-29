@@ -8,3 +8,18 @@ location:
   district: Sarlahi
   province: Madhesh
   country: Nepal
+
+population:
+  census_path: data/reference/caste_population_2011.csv
+  groundwater_indices_path: data/reference/groundwater_access_indices_2026.csv
+
+  # Illustrative assumptions, not observed probabilities.
+  borehole_ownership_probability: 0.10
+  pump_ownership_probability: 0.15
+
+  # Illustrative distributions.
+  land_area_ha: [0.1, 2.0]
+  initial_assets_npr: [20000, 300000]
+
+  # Temporary approximation until ward-level canal access is modelled.
+  canal_access_probability: 0.4
