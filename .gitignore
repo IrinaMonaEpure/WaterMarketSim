@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+.env
+
+# Research outputs
+outputs/
+data/raw/
+data/processed/
+
+# IDE
+.vscode/
+.idea/

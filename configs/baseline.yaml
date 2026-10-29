@@ -1,0 +1,10 @@
+simulation:
+  seed: 42
+  n_farmers: 500
+  n_days: 60
+
+location:
+  name: Barahathawa
+  district: Sarlahi
+  province: Madhesh
+  country: Nepal
